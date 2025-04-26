@@ -75,5 +75,5 @@ Enter the bootloader in 3 ways:
     <img src="images/kle.png" alt="KLE" width="500px">
 
 * Run `cd /qmk_firmware/keyboards/3x2_pad` (altough I think it can be run from anywhere) and then compile `qmk compile -kb 3x2_pad -km default`. This will generate a `3x2_pad_default.hex` file in `/qmk_firmware`.
-* Open QMK toolbox, choose `firmware` and `MCU type`. Plug PCB. Close circuit for RESET and GND. Click flash.
+* Open QMK toolbox, choose `firmware` and `MCU type`. Plug PCB. Close circuit for RESET and GND to enter bootloader mode. Click flash.
 * To use it with Via, go to design tab and upload `/qmk_firmware/keyboards/3x2_pad/via.json`.
