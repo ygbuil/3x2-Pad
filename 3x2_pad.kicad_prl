@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "pad.kicad_prl",
+    "filename": "3x2_pad.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -96,7 +96,7 @@
       103,
       74,
       103,
-      103
+      284
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

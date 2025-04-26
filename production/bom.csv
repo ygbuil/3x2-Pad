@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"D1, D2, D3, D4, D5",D_SOD-123,5,D_Small,
+J1,ProMicro_USBup,1,Conn_02x12_Top_Bottom,
+"MX1, MX2, MX3, MX4, MX5",SW_MX_HS_CPG151101S11_1u,5,MX_SW_HS,
+S1,STAB_MX_P_2u,1,MX_stab,
