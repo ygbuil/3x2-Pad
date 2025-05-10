@@ -47,5 +47,8 @@
 * In `/qmk_firmware/keyboards/3x2_pad/`, create a `via.json` from scratch as you can see in this repo. The `keymap` key is derived from inputing in the Keyboard Layout Editor the `[<row>, <col>]` (explained before) and extracting the raw data.
 
     <img src="images/kle.png" alt="KLE" width="500px">
-* Flash the keyboard with `qmk flash -kb 3x2_pad -km default`. First it will compile a `3x2_pad_default.hex` file in `/qmk_firmware`. Then it will prompt you to enter bootloader mode by closing the circuit for RESET and GND. Once you do it, flashing will start and after that keyboard will be ready to use.
+* Flash the keyboard:
+    * Option 1: Run `qmk flash -kb 3x2_pad -km default`. First it will compile a `3x2_pad_default.hex` file in `/qmk_firmware`. Then it will prompt you to enter bootloader mode by closing the circuit for RESET and GND. Once you do it, flashing will start and after that keyboard will be ready to use.
+
+    * Option 2: Run `qmk compile -kb 3x2_pad -km default`. This will compile a `3x2_pad_default.hex` file in `/qmk_firmware`. Download `QMK Toolbox` and open it. Select the compiled `3x2_pad_default.hex`, enter bootloader mode by closing the circuit for RESET and GND, and finally click `flash`.
 * To use it with Via, go to design tab and upload `/qmk_firmware/keyboards/3x2_pad/via.json`.
