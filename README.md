@@ -3,7 +3,7 @@
 
 This project is a custom-built 5-key keyboard pad designed and developed entirely from scratch. It’s powered by a **Pro Micro microcontroller** and is fully compatible with **VIA Software**, a powerful configuration tool for custom keyboards.
 
-<img src="images/pad.png" width="300px">
+<img src="images/pad.png" width="500px" style="display: block; margin: auto;">
 
 ## Features
 
